@@ -1,106 +1,102 @@
 :root {
-/* Otras propiedades */
+
   --rosa-pastel: #f8c8dc;
   --amarillo-pastel: #fff3b0;
   --texto: #444;}
 
 * {
-/* Modelo de caja */
+
   box-sizing: border-box;
 
-  /* Márgenes */
+
   margin: 0;
 
-  /* Relleno */
+
   padding: 0;}
 
 body {
-/* Fondos */
+
   background: var(--amarillo-pastel);
 
-  /* Tipografía */
-  font-family: Arial, sans-serif;
+  font-family: "Courier New", monospace;
 
-  /* Colores y efectos */
+ 
   color: var(--texto);}
 
 header {
-/* Relleno */
+
   padding: 1rem;
 
-  /* Fondos */
   background: var(--rosa-pastel);
 
-  /* Tipografía */
+  
   text-align: center;}
 
 nav {
-/* Modelo de caja */
+
   display: flex;
 
-  /* Flexbox y Grid */
+  
   justify-content: space-between;
   align-items: center;
 
-  /* Relleno */
+
   padding: 1rem;
 
-  /* Fondos */
+
   background: white;}
 
 nav ul {
-/* Modelo de caja */
+
   display: flex;
 
-  /* Flexbox y Grid */
+ 
   gap: 15px;
 
-  /* Otras propiedades */
+
   list-style: none;}
 
 nav a {
-/* Tipografía */
+
   text-decoration: none;
 
-  /* Colores y efectos */
   color: #d63384;}
 
 nav a:hover {
-/* Tipografía */
+
   text-decoration: underline;}
 
 .layout {
-/* Modelo de caja */
+
   display: grid;
 
-  /* Flexbox y Grid */
+
   gap: 20px;
 
-  /* Relleno */
+
   padding: 1rem;
 
-  /* Otras propiedades */
+  
   grid-template-columns: 3fr 1fr;}
 
 main, aside {
-/* Relleno */
+
   padding: 1rem;
 
-  /* Fondos */
+
   background: white;
 
-  /* Colores y efectos */
+
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);}
 
 footer {
-/* Márgenes */
+
   margin-top: 20px;
 
-  /* Relleno */
   padding: 1rem;
 
-  /* Fondos */
+ 
   background: var(--rosa-pastel);
 
-  /* Tipografía */
+
   text-align: center;}
